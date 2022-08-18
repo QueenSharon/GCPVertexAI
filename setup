@@ -1,0 +1,11 @@
+from google.cloud import bigquery
+bq = bigquery.Client(project = "project")
+
+import pytz
+
+# Construct a BigQuery client object.
+client = bigquery.Client()
+
+# TODO(developer): Set table_id to the ID of the table to create.
+table_id = "project.dataset.table_wirte"
+
